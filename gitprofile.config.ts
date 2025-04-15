@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         // sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -49,7 +49,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/shriya-sami/',
+    linkedin: 'shriya-sami',
     email: 'shriya.s16@hotmail.com',
   },
   // resume: {
@@ -196,8 +196,8 @@ const CONFIG = {
       accent: '#f4d35e',
       neutral: '#2e2e2e',
       'base-100': '#f9f9f9',
-      '--rounded-box': '2rem',
-      '--rounded-btn': '2rem',
+      '--rounded-box': '1rem',
+      '--rounded-btn': '1.5rem',
     },
   },
 
