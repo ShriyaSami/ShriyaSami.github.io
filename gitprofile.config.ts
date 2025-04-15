@@ -28,20 +28,20 @@ const CONFIG = {
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
-      header: '',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-      ],
-    },
+    // external: {
+    //   header: '',
+    //   // To hide the `External Projects` section, keep it empty.
+    //   projects: [
+    //     {
+    //       title: '',
+    //       description:
+    //         '',
+    //       imageUrl:
+    //         '',
+    //       link: '',
+    //     },
+    //   ],
+    // },
   },
   seo: {
     title: 'Portfolio of Shriya Sami',
@@ -139,7 +139,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'procyon',
+    defaultTheme: 'acid',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -208,7 +208,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
