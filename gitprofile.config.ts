@@ -52,10 +52,10 @@ const CONFIG = {
     linkedin: 'https://www.linkedin.com/in/shriya-sami/',
     email: 'shriya.s16@hotmail.com',
   },
-  resume: {
-    fileUrl:
-      //amend: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // resume: {
+  //   fileUrl:
+  //     //amend: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  // },
   skills: [
     'Python',
     'R',
