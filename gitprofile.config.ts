@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Projects',
+      header: 'Shriya's Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         // sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -61,7 +61,7 @@ const CONFIG = {
     'R',
     'SQL',
   ],
-  experiences: [
+  experiences: [ 
     {
       company: 'Birmingham City University',
       position: 'Student Mentor',
@@ -190,15 +190,15 @@ const CONFIG = {
     ],
 
     // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED', //squares
-      '--rounded-box': '1rem',
-      '--rounded-btn': '1.5rem',
-    },
+    // customTheme: {
+    //   primary: '#fc055b',
+    //   secondary: '#219aaf',
+    //   accent: '#e8d03a',
+    //   neutral: '#2A2730',
+    //   'base-100': '#E3E3ED', //squares
+    //   '--rounded-box': '1rem',
+    //   '--rounded-btn': '1.5rem',
+    // },
   },
   
   // Optional Footer. Supports plain text or HTML.
