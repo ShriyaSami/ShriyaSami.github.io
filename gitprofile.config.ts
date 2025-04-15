@@ -198,8 +198,8 @@ const CONFIG = {
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
-  },
-
+    },
+  };
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
