@@ -139,7 +139,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'fantasy',
+    defaultTheme: 'procyon',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -154,7 +154,7 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
+      // 'light',
       'dark',
       // 'cupcake',
       // 'bumblebee',
@@ -190,15 +190,15 @@ const CONFIG = {
     ],
 
     // Custom theme, applied to `procyon` theme
-    // customTheme: {
-    //   primary: '#fc055b',
-    //   secondary: '#219aaf',
-    //   accent: '#e8d03a',
-    //   neutral: '#2A2730',
-    //   'base-100': '#E3E3ED',
-    //   '--rounded-box': '3rem',
-    //   '--rounded-btn': '3rem',
-    // },
+    customTheme: {
+      primary: '#fc055b',
+      secondary: '#219aaf',
+      accent: '#e8d03a',
+      neutral: '#2A2730',
+      'base-100': '#E3E3ED',
+      '--rounded-box': '2rem',
+      '--rounded-btn': '2rem',
+    },
   },
 
   // Optional Footer. Supports plain text or HTML.
